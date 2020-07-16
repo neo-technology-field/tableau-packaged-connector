@@ -6,8 +6,8 @@
     <support-link url="https://support.neo4j.com/" />
   </vendor-information>
   <connection-customization class="neo4j_jdbc" enabled="true" version="10.0">
-    <vendor name="Simba" />
-    <driver name="Neo4j JDBC" />
+    <vendor name="Neo4j" />
+    <driver name="Neo4j BI Connector" />
     <customizations>
       <customization name="CAP_FAST_METADATA" value="yes" />
       <customization name="CAP_SELECT_INTO" value="no" />
