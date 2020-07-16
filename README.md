@@ -29,6 +29,7 @@ overview of "what's in the box".
 * `manifest.xml` - the file that describes the overall structure & resources.  Identifies this connector as a subset of the JDBC dialect / connector in Tableau.  This also provides a list of "Tableau Capabilities" that the connector will use or reject; for example the BI Connector does not support the use of SQL temporary tables, so this capability is turned off.
 * `dialect.tdd` - customizations of the dialect of SQL that Tableau will speak to this connector. (tdd is "Tableau Dialect Definition")
 * `connection-dialog.tcd` which defines the fields which appear on the connector's connection dialog.
+* `connection-resolver.tdr` needed to define custom attributes in the connection dialog.
 
 # Packaging
 
