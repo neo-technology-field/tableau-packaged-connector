@@ -2,8 +2,8 @@
 
 <connector-plugin class="neo4j_jdbc" superclass="jdbc" plugin-version="0.0.0" name="Neo4j JDBC" version="18.1">
   <vendor-information>
-    <company name="Simba" />
-    <support-link url="https://example.com" />
+    <company name="Neo4j" />
+    <support-link url="https://support.neo4j.com/" />
   </vendor-information>
   <connection-customization class="neo4j_jdbc" enabled="true" version="10.0">
     <vendor name="Simba" />
