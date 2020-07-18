@@ -5,5 +5,10 @@
       <formula>CAST(((EXTRACT(EPOCH FROM %1) / ( 60 * 60 * 24)) + (365 * 70 + 17)) AS BIGINT)</formula>
       <argument type="date" />
     </function>
+    <function group='string' name='CONTAINS' return-type='int'>
+      <formula>LOCATE(%2, %1)</formula>
+      <argument type='str' />
+      <argument type='str' />
+    </function>
   </function-map>
 </dialect>
