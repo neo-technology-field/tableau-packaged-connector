@@ -2,7 +2,7 @@
   <connection-config>
      <authentication-mode value='Basic' />
     <authentication-options>
-      <option name="UsernameAndPassword" default="true" />
+      <option name="UsernameAndPassword" default="true" value="auth-user-pass" />
     </authentication-options>
     <has-schemas value="true" />
     <port-prompt value="Port: " default="7687" />
