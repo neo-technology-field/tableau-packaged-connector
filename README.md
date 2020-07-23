@@ -13,7 +13,7 @@ in customer deployments, see "Packaging" below.
 
 ### Mac
 
-`/Applications/Tableau\ Desktop\ <VERSION>.app/Contents/MacOS/Tableau -DConnectPluginsPath=/path/to/this/repo`.  
+`/Applications/Tableau\ Desktop\ 2020.2.app/Contents/MacOS/Tableau -DConnectPluginsPath=/path/to/this/repo -DLogLevel=Debug`.
 
 ## Use the Named Driver
 

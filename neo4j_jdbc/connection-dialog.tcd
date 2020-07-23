@@ -6,5 +6,6 @@
     </authentication-options>
     <has-schemas value="true" />
     <port-prompt value="Port: " default="7687" />
+    <service-prompt value="Driver Options: " />
   </connection-config>
 </connection-dialog>
